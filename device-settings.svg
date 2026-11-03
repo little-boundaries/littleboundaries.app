@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="240" height="480" viewBox="0 0 240 480" fill="none">
-  <title>iPhone-shaped device with fictional restriction settings</title>
+  <title>Device restriction settings</title>
   <desc>A tall phone with a slim metal frame, rounded display, camera cutout, side buttons and home indicator. Camera is allowed; AirDrop and in-app purchases are restricted.</desc>
   <defs>
     <linearGradient id="frame" x1="23" y1="12" x2="218" y2="460" gradientUnits="userSpaceOnUse"><stop stop-color="#a7ada4"/><stop offset=".18" stop-color="#e2e4dc"/><stop offset=".52" stop-color="#727e73"/><stop offset=".8" stop-color="#c5ccc0"/><stop offset="1" stop-color="#667466"/></linearGradient>
