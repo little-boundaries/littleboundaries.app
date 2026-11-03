@@ -16,3 +16,5 @@ header.wrap{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:24px}
 header nav .button{gap:10px;white-space:nowrap}
 
 .table-hint{display:none}@media(max-width:700px){.table-hint{display:block;font-size:12px;margin-bottom:8px}}
+
+.independence-note{font-size:13px;line-height:1.65;margin-top:12px;max-width:490px;color:var(--body)}footer>.apple-notice,footer>.trademark-notice{font-size:12px;line-height:1.7;max-width:100%;overflow-wrap:anywhere}footer>.apple-notice{font-weight:600;color:var(--ink)}
