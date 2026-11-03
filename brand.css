@@ -1,0 +1,31 @@
+/* Little Boundaries — C4 "Bold Pickets" identity.
+   Load this BEFORE styles.css, or merge into the top of styles.css.
+   Fonts are self-hosted from /fonts (SIL OFL; see fonts/OFL.txt). */
+
+@font-face{font-family:"Fraunces";font-style:normal;font-weight:400;font-display:swap;src:url("fonts/fraunces-latin-400-normal.woff2") format("woff2")}
+@font-face{font-family:"Fraunces";font-style:italic;font-weight:400;font-display:swap;src:url("fonts/fraunces-latin-400-italic.woff2") format("woff2")}
+@font-face{font-family:"Fraunces";font-style:normal;font-weight:600;font-display:swap;src:url("fonts/fraunces-latin-600-normal.woff2") format("woff2")}
+
+:root{
+  /* existing tokens, unchanged */
+  --paper:#fbf9f3; --ink:#223d33; --body:#526158; --green:#285844;
+  --sage:#e8eddf; --peach:#efd7c6; --line:#d9ded1;
+  /* new identity tokens */
+  --brand-pine:#1e4234;        /* wordmark text */
+  --brand-terracotta:#a45739;  /* fence + wordmark period on light */
+  --brand-clay:#c2774f;        /* fence on dark */
+  --brand-sage:#bfd3ae;
+  --font-display:"Fraunces", Georgia, "Times New Roman", serif;
+}
+
+/* Headlines move from Georgia to Fraunces (Georgia remains the fallback). */
+h1,h2,.layers h3,.mini-content h3,.restriction-group h3,.guide-cards h3{font-family:var(--font-display)}
+/* Fraunces is wider than Georgia; relax the tight tracking a little. */
+h1,h2{letter-spacing:-.035em}
+
+/* Header/footer wordmark: replaces the "↟" text symbol with the real mark. */
+.brand{gap:10px;font-family:var(--font-display);font-weight:600;letter-spacing:-.01em;color:var(--brand-pine)}
+.brand-mark{display:block;width:auto;height:38px;flex-shrink:0}
+footer .brand-mark{height:32px}
+.brand-dot{color:var(--brand-terracotta);margin-left:-9px}
+@media(max-width:700px){.brand-mark{height:32px}}
