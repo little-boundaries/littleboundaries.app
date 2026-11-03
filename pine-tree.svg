@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="240" viewBox="0 0 160 240" fill="none">
+  <title>Pine tree</title>
+  <path d="M74 190h12v43H74z" fill="#9b8360"/>
+  <path d="m80 9 29 57H97l28 45h-17l35 51h-20l34 49H3l34-49H17l35-51H35l28-45H51L80 9Z" fill="#78936b"/>
+  <path d="m80 9 29 57H97l28 45h-17l35 51h-20l34 49H80V9Z" fill="#657f59"/>
+  <path d="M80 66H51m29 45H35m45 51H17" stroke="#a5b797" stroke-width="2" stroke-linecap="round" opacity=".55"/>
+</svg>
